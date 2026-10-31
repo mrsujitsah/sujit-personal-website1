@@ -342,7 +342,7 @@ export default function App() {
               </p>
               <a
                 className="button button-primary"
-                href="mailto:YOUR_EMAIL@example.com"
+                href="mailto:contact@sujitkumarsah.com.np"
               >
                 Say hello <ArrowUpRight size={17} />
               </a>
@@ -365,13 +365,13 @@ export default function App() {
           © {new Date().getFullYear()} Sujit Kumar Sah. Built with React.
         </span>
         <div className="socials">
-          <a href="https://www.linkedin.com/" aria-label="LinkedIn">
+          <a href="https://www.linkedin.com/in/sujitsah/" aria-label="LinkedIn">
             <BriefcaseBusiness size={17} />
           </a>
-          <a href="https://github.com/" aria-label="GitHub">
+          <a href="https://github.com/mrsujitsah" aria-label="GitHub">
             <GitBranch size={17} />
           </a>
-          <a href="mailto:YOUR_EMAIL@example.com" aria-label="Email">
+          <a href="mailto:contact@sujitkumarsah.com.np" aria-label="Email">
             <Mail size={17} />
           </a>
         </div>

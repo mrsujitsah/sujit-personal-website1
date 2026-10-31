@@ -362,7 +362,7 @@ export default function App() {
           </span>
         </a>
         <span>
-          © {new Date().getFullYear()} Sujit Kumar Sah. Built with React.
+          © {new Date().getFullYear()} Sujit Kumar Sah. Built with Love ❤️.
         </span>
         <div className="socials">
           <a href="https://www.linkedin.com/in/sujitsah/" aria-label="LinkedIn">

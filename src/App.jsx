@@ -68,7 +68,14 @@ const projects = [
     title: "Cloud-native modernisation",
     description:
       "Modernisation of a long-running enterprise product into independently deployable services, with an emphasis on scalability, maintainability and automated delivery.",
-    stack: ["Golang", "AWS", "Kotlin", "Microservices"],
+    stack: [
+      "Golang",
+      "Gin Framework",
+      "AWS",
+      "AWS CDK",
+      "Kotlin",
+      "Microservices",
+    ],
   },
   {
     number: "02",
@@ -118,6 +125,7 @@ export default function App() {
           <a href="#experience">Experience</a>
           <a href="#projects">Projects</a>
           <a href="#contact">Contact</a>
+          <a href="">Updates</a>
         </nav>
         <a className="nav-cta" href="#contact">
           Let's connect <ArrowUpRight size={15} />
@@ -155,7 +163,7 @@ export default function App() {
                 <MapPin size={15} /> Pune, India
               </span>
               <span className="meta-separator"></span>
-              <span>Java · Golang · AWS</span>
+              <span>Java · Spring Boot · Golang · Gin Framework · AWS</span>
             </div>
           </div>
           <div className="hero-visual">
@@ -320,7 +328,7 @@ export default function App() {
               <span className="eyebrow">EDUCATION</span>
               <h3>B.E — Dr. D. Y. Patil School of Engineering</h3>
               <div className="edu-secondary">
-                Computer Engineering & Engineering
+                Computer Science & Engineering
               </div>
             </div>
             <span className="edu-score">CGPA 9.2</span>
